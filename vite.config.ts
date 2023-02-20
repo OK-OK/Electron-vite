@@ -8,7 +8,7 @@ import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 import DefineOptions from 'unplugin-vue-define-options/vite'
 
 export default defineConfig({
-  base:"./",
+  base: './',
   plugins: [
     vue(),
     compressPlugin(),
